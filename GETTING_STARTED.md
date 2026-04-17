@@ -6,7 +6,7 @@ This guide takes you from download to your first agent-driven model interaction.
 
 > For a project overview, tool/skill reference, and documentation links, see the [README](README.md).
 
-> Automated setup has been verified with basic workflows on Claude Code, Sourcegraph Amp, Gemini CLI, and OpenAI Codex. Other platforms are provided as-is and currently untested. Please [report issues](https://github.com/mathworks/simulink-agentic-toolkit/issues) if you encounter problems.
+> Automated setup has been verified with basic workflows on Claude Code, Sourcegraph Amp, Gemini CLI, and OpenAI Codex. Other platforms are provided as-is and currently untested. Please [report issues](https://github.com/simulink/simulink-agentic-toolkit/issues) if you encounter problems.
 
 ---
 
@@ -56,7 +56,7 @@ Setup is re-runnable. Run it again to update the binary, switch MATLAB versions,
 Clone the toolkit to a permanent location outside your project directories (e.g., `~/tools/` or `~/repos/`). Most platforms reference this clone via symbolic links, so the toolkit needs to stay in place after setup.
 
 ```
-git clone https://github.com/mathworks/simulink-agentic-toolkit.git
+git clone https://github.com/simulink/simulink-agentic-toolkit.git
 cd simulink-agentic-toolkit
 ```
 
@@ -165,7 +165,7 @@ If you already have the [MATLAB MCP Core Server](https://github.com/matlab/matla
 Add skills directly via the plugin marketplace:
 
 ```bash
-claude plugin marketplace add "https://github.com/mathworks/simulink-agentic-toolkit"
+claude plugin marketplace add "https://github.com/simulink/simulink-agentic-toolkit"
 claude plugin install model-based-design-core@simulink-agentic-toolkit
 ```
 
